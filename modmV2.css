@@ -40,3 +40,12 @@
     text-decoration: none;
     white-space: nowrap;
 }
+@media screen and (min-width: 760px)
+{
+.mdl-mega-footer--drop-down-section:nth-child(1), .mdl-mega-footer--drop-down-section:nth-child(2), .mdl-mega-footer__drop-down-section:nth-child(1), .mdl-mega-footer__drop-down-section:nth-child(2) {
+    float: left;
+}
+.mdl-mega-footer--drop-down-section, .mdl-mega-footer__drop-down-section {
+    width: 33%;
+}
+}
